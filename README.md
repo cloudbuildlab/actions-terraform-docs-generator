@@ -59,7 +59,7 @@ permissions:
 
 jobs:
   terraform-docs:
-    uses: cloudbuildlab/actions-markdown-lint/.github/workflows/terraform-docs.yml@v0
+    uses: cloudbuildlab/actions-terraform-docs-generator/.github/workflows/terraform-docs.yml@v0
       working-dir: ./terraform
       output-file: README.md
       output-method: inject
